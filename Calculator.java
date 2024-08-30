@@ -1,7 +1,7 @@
 public class Calculator {
     public static void main(String[] args) {
-        double num1 = 10.0;
-        double num2 = 6.0;
+        double num1 = 25.0;
+        double num2 = 5.0;
 
         double sum = num1 + num2;
         System.out.println("Addition: " + num1 + " + " + num2 + " = " + sum);
@@ -11,3 +11,8 @@ public class Calculator {
 
         double product = num1 * num2;
         System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + product);
+
+        double quotient = num1 / num2;
+        System.out.println("Division: " + num1 + " / " + num2 + " = " + quotient);
+    }
+}
